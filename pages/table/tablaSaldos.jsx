@@ -44,7 +44,7 @@ const SaladosTable = ()=> {
   return (
     <Grid container justifyContent="center">
       <Grid item md={12}>
-      <Typography variant="h6" style={{ margin: "10px 0" }}>
+      <Typography variant="h6" style={{ margin: "10px 0" }} style={{ color: 'white' }}>
             Saldos/Limites
         </Typography>
         <TableContainer component={Paper}>
