@@ -5,7 +5,7 @@ import {
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
-const VentasTable = ()=> {
+const SaladosTable = ()=> {
     const [data, setData] = useState([
         { id: 1, division: "Division 1", ventas: 25 ,limites: 100, insuficiencias: 0, riesgo: 10 },
         { id: 2, division: "Division 2", ventas: 30, limites: 100, insuficiencias: 0, riesgo: 10  },
@@ -42,10 +42,10 @@ const VentasTable = ()=> {
       };
 
   return (
-    <Grid container>
+    <Grid container justifyContent="center">
       <Grid item md={12}>
       <Typography variant="h6" style={{ margin: "10px 0" }}>
-            Ventas/Limites
+            Saldos/Limites
         </Typography>
         <TableContainer component={Paper}>
           <Table>
@@ -104,5 +104,4 @@ const VentasTable = ()=> {
   );
 }
 
-export default VentasTable;
-
+export default SaladosTable;
