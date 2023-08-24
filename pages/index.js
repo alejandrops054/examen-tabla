@@ -18,16 +18,16 @@ const Home = () => {
       </Grid>
 
       <Grid container spacing={1}> {/* spacing es opcional, pero puede ser útil para dar espacio entre las tablas */}
-        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }}>
+        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }} sx={{ mt: 4 }}>
           <VentasTable/>
         </Grid>
-        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }}>
+        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }} sx={{ mt: 4 }}>
           <SaladosTable/>
         </Grid>
-        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }}>
+        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }} sx={{ mt: 4 }}> {/* Añadido margen superior */}
           <InsuficienciasVentasTable/>
         </Grid>
-        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }}>
+        <Grid item md={5} style={{ marginLeft: '90px', marginRight: '20px' }} sx={{ mt: 4 }}> {/* Añadido margen superior */}
           <InsuficienciasSaldoTable/>
         </Grid>
       </Grid>
@@ -37,3 +37,4 @@ const Home = () => {
 }
 
 export default Home;
+

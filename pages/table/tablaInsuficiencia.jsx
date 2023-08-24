@@ -44,7 +44,7 @@ const InsuficienciasVentasTable = ()=> {
   return (
     <Grid container justifyContent="center">
       <Grid item md={12}>
-      <Typography variant="h6" style={{ margin: "10px 0" }} style={{ color: 'white' }}>
+      <Typography variant="h6" style={{ margin: "10px 0" }} >
             Insuficiencias Ventas
         </Typography>
         <TableContainer component={Paper}>

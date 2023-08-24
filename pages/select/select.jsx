@@ -15,7 +15,7 @@ const SelectOprops = () =>{
   
     return (
       <div>
-        <FormControl sx={{ m: 1, minWidth: 220, backgroundColor: 'white'  }} disabled>
+        <FormControl sx={{ m: 1, minWidth: 320, backgroundColor: 'white'  }} disabled>
           <InputLabel id="demo-simple-select-disabled-label">Age</InputLabel>
           <Select
             labelId="demo-simple-select-disabled-label"
@@ -33,7 +33,7 @@ const SelectOprops = () =>{
           </Select>
           <FormHelperText>Disabled</FormHelperText>
         </FormControl>
-        <FormControl sx={{ m: 1, minWidth: 220, backgroundColor: 'white'  }} error>
+        <FormControl sx={{ m: 1, minWidth: 320, backgroundColor: 'white'  }} error>
           <InputLabel id="demo-simple-select-error-label">Age</InputLabel>
           <Select
             labelId="demo-simple-select-error-label"
@@ -52,7 +52,7 @@ const SelectOprops = () =>{
           </Select>
           <FormHelperText>Error</FormHelperText>
         </FormControl>
-        <FormControl sx={{ m: 1, minWidth: 220, backgroundColor: 'white'  }}>
+        <FormControl sx={{ m: 1, minWidth: 320, backgroundColor: 'white'  }}>
           <InputLabel id="demo-simple-select-readonly-label">Age</InputLabel>
           <Select
             labelId="demo-simple-select-readonly-label"
@@ -71,7 +71,7 @@ const SelectOprops = () =>{
           </Select>
           <FormHelperText>Read only</FormHelperText>
         </FormControl>
-        <FormControl required sx={{ m: 1, minWidth: 220, backgroundColor: 'white'  }}>
+        <FormControl required sx={{ m: 1, minWidth: 320, backgroundColor: 'white'  }}>
           <InputLabel id="demo-simple-select-required-label">Age</InputLabel>
           <Select
             labelId="demo-simple-select-required-label"
