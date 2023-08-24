@@ -44,7 +44,7 @@ const VentasTable = ()=> {
   return (
     <Grid container>
       <Grid item md={12}>
-      <Typography variant="h6" style={{ margin: "10px 0" }} style={{ color: 'white' }}>
+      <Typography variant="h6" style={{ margin: "40px 0" }} style={{ color: 'white' }}>
             Ventas/Limites
         </Typography>
         <TableContainer component={Paper}>
